@@ -15,7 +15,6 @@ const swaggerRouter = require('./utils/swagger.js')
 
 const app = express();
 
-
 const PORT = env.PORT;
 
 app.use(express.json())
