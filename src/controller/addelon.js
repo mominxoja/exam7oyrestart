@@ -10,13 +10,27 @@ const elonmodeli = require('../model/elon');
 const Joi = require("joi");
 
 const GetElon = async (req, res)=>{
-    try {
-        const elonlar = await Elons.read()
-        const filterobj = elonlar.filter(obj=>obj.tasdiqlash===true)
-    res.send(filterobj)
-    } catch (error) {
+    // try {
+    //     const elonlar = await Elons.read()
+    //     const filterobj = elonlar.filter(obj=>obj.tasdiqlash===true)
+    // res.send(filterobj)
+    // } catch (error) {
         
+    // }
+    const { token } = req.headers
+    
+    if(token){
+        const {page} = req.params
+        const elon = await Elons.read()
+        function pagenation(data, page, limit){
+            const result = data.slice((page-1)*limit, page*limit )
+            return result
+        }
+        res.send(pagenation(elon, page, 9));
+    }else{
+        res.send("login qil")
     }
+
 }
 
 

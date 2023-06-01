@@ -75,6 +75,7 @@ paths:
           description: Successful login
         '401':
           description: Unauthorized
+  /addelon/{page}:  
     get:
       parameters:
       - name: token
@@ -82,6 +83,8 @@ paths:
         description: tokenni shu yerga qoying admin
         required: true
         type: string
+      - name: page
+        in: path  
       summary: Barcha tasdiqlangan elonlar
       responses:
         '200':

@@ -31,5 +31,104 @@
     "phoneNumber": "935615636",
     "tasdiqlash": true,
     "category": "tadbir"
+  },
+  {
+    "id": 4,
+    "kimniki": "adminning ",
+    "title": "title buu",
+    "description": "dessoshabu",
+    "image": "1437b608-b374-4fb1-8f89-ae670670d422.jpeg",
+    "date": "01/06/2023",
+    "phoneNumber": "998935615636",
+    "tasdiqlash": true,
+    "category": "tadbir"
+  },
+  {
+    "id": 5,
+    "kimniki": "adminning ",
+    "title": "title buu",
+    "description": "dessoshabu",
+    "image": "3349678a-4836-4409-a9ce-bc950a08b66e.jpeg",
+    "date": "01/06/2023",
+    "phoneNumber": "998935615636",
+    "tasdiqlash": true,
+    "category": "Webdasturlash"
+  },
+  {
+    "id": 6,
+    "kimniki": "saloxning ",
+    "title": "qwerty",
+    "description": "asdfgh",
+    "image": "1c02041d-4f4c-418b-a7fb-8f800596ec6c.jpeg",
+    "date": "1/10/2023",
+    "phoneNumber": "935615636",
+    "tasdiqlash": true,
+    "category": "tadbir"
+  },{
+    "id": 8,
+    "kimniki": "adminning ",
+    "title": "title buu",
+    "description": "dessoshabu",
+    "image": "1437b608-b374-4fb1-8f89-ae670670d422.jpeg",
+    "date": "01/06/2023",
+    "phoneNumber": "998935615636",
+    "tasdiqlash": true,
+    "category": "tadbir"
+  },
+  {
+    "id": 8,
+    "kimniki": "adminning ",
+    "title": "title buu",
+    "description": "dessoshabu",
+    "image": "3349678a-4836-4409-a9ce-bc950a08b66e.jpeg",
+    "date": "01/06/2023",
+    "phoneNumber": "998935615636",
+    "tasdiqlash": true,
+    "category": "Webdasturlash"
+  },
+  {
+    "id": 9,
+    "kimniki": "saloxning ",
+    "title": "qwerty",
+    "description": "asdfgh",
+    "image": "1c02041d-4f4c-418b-a7fb-8f800596ec6c.jpeg",
+    "date": "1/10/2023",
+    "phoneNumber": "935615636",
+    "tasdiqlash": true,
+    "category": "tadbir"
+  },
+  {
+    "id": 10,
+    "kimniki": "adminning ",
+    "title": "title buu",
+    "description": "dessoshabu",
+    "image": "1437b608-b374-4fb1-8f89-ae670670d422.jpeg",
+    "date": "01/06/2023",
+    "phoneNumber": "998935615636",
+    "tasdiqlash": true,
+    "category": "tadbir"
+  },
+  {
+    "id": 11,
+    "kimniki": "adminning ",
+    "title": "title buu",
+    "description": "dessoshabu",
+    "image": "3349678a-4836-4409-a9ce-bc950a08b66e.jpeg",
+    "date": "01/06/2023",
+    "phoneNumber": "998935615636",
+    "tasdiqlash": true,
+    "category": "Webdasturlash"
+  },
+  {
+    "id": 12,
+    "kimniki": "saloxning ",
+    "title": "qwerty",
+    "description": "asdfgh",
+    "image": "1c02041d-4f4c-418b-a7fb-8f800596ec6c.jpeg",
+    "date": "1/10/2023",
+    "phoneNumber": "935615636",
+    "tasdiqlash": true,
+    "category": "tadbir"
   }
+
 ]

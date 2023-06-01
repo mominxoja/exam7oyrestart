@@ -5,4 +5,4 @@ const { AddElon, GetElon } = require("../controller/addelon");
 
 module.exports = routes
     .post("/addelon", AddElon)
-    .get("/addelon", GetElon);
+    .get("/addelon/:page", GetElon);
