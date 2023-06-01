@@ -1,0 +1,141 @@
+openapi: 3.0.0
+info:
+  title: My API
+  version: 1.0.0
+paths:
+  /register:
+    post:
+      summary: User Register
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                username:
+                  type: string
+                password:
+                  type: string
+      responses:
+        '200':
+          description: Successful Registered
+        '401':
+          description: Unauthorized
+  /login:
+    post:
+      summary: User Login
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                username:
+                  type: string
+                password:
+                  type: string
+      responses:
+        '200':
+          description: Successful login
+        '401':
+          description: Unauthorized
+  /addelon:
+    post:
+      parameters:
+      - name: token
+        in: header
+        description: tokenni shu yerga qoying
+        required: true
+        type: string
+      summary: User add elon
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                title:
+                  type: string
+                description:
+                  type: string
+                phoneNumber:
+                  type: string
+                date:
+                  type: string
+                category:
+                  type: string
+                image:
+                  type: string
+                  format: binary
+      responses:
+        '200':
+          description: Successful login
+        '401':
+          description: Unauthorized
+    get:
+      parameters:
+      - name: token
+        in: header
+        description: tokenni shu yerga qoying admin
+        required: true
+        type: string
+      summary: Barcha tasdiqlangan elonlar
+      responses:
+        '200':
+          description: Successful login
+        '401':
+          description: Unauthorized
+  /tasdiqlash:
+    get:
+      parameters:
+      - name: token
+        in: header
+        description: tokenni shu yerga qoying admin
+        required: true
+        type: string
+      summary: Barcha tasdiqlanmagan elonlar
+      responses:
+        '200':
+          description: Successful login
+        '401':
+          description: Unauthorized
+  /tasdiqlash/{id}:
+    put:
+      parameters:
+      - name: token
+        in: header
+        description: tokenni shu yerga qoying admin
+        required: true
+        type: string
+      - name: id
+        in: path
+        required: true
+      summary: Elonni tasdiqlash uchun elon idsini kiriting
+      responses:
+        '200':
+          description: Successful login
+        '401':
+          description: Unauthorized
+  /filter/{filter}:
+    post:
+      parameters:
+      - name: token
+        in: header
+        description: tokenni shu yerga qoying admin
+        required: true
+        type: string
+      - name: filter
+        in: path
+        required: true
+      summary: Elonlarni qaysi category boyicha saralamoqchisiz 
+      responses:
+        '200':
+          description: Successful 
+        '401':
+          description: Unauthorized
+
+
+

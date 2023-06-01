@@ -1,0 +1,25 @@
+components:
+  schemas:
+    Response:
+      type: object
+      properties:
+        username:
+          type: integer
+        password:
+          type: integer
+    ErrorResponse:
+      type: object
+      properties:
+        name: 
+          type: string
+        message: 
+          type: string
+    Register:
+      type: object
+      properties:
+        username:
+          type: string
+        password:
+          type: string
+
+
