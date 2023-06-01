@@ -34,5 +34,11 @@
     "username": "salox",
     "password": "$2b$10$7z5l8YN7FUk.BqNSG.XkeOOXh13JEwZLEpw6ZFAegcVdK70257E1y",
     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwiaWF0IjoxNjg1NjE0MjMzLCJleHAiOjE3MTcxNTAyMzN9.ZNtWRY6FQCanAnKyZ32eudOW7QAPuS7WHYr_fskdwgs"
+  },
+  {
+    "id": 7,
+    "username": "eshmatbekjon",
+    "password": "$2b$10$TsgEbIkjLTBNaRyG7iOADOFei9IseV/DRBZR4duSQWSfHX1PGOoHq",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NywiaWF0IjoxNjg1NjIyMDU3LCJleHAiOjE3MTcxNTgwNTd9.0QywyssxIJK7bGYxgn5QlHY65fNiNf5aP0mZtNaJdjM"
   }
 ]

@@ -27,9 +27,7 @@ const LOGIN = async (req, res) => {
             res.send("parol xato")
         } else {
             res.cookie("token", sign({ id: user.id }), { httpOnly: true });
-            const elon = await Elon.read()
-            const filterobj = elon.filter(obj=>obj.tasdiqlash===true)
-            res.status(200).json(filterobj)
+            res.send("siz login qildingiz get elonga tokenni copy qilib oting")
         }
 
                   
